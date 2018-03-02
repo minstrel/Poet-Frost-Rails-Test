@@ -7,7 +7,6 @@ class Post < ApplicationRecord
   #                            content: body 
   #                            )
   #end
-  extend PoetFrostConfig
   include PoetFrostAPI
 
   poet_frost_configure do |config|
