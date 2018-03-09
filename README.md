@@ -1,24 +1,13 @@
-# README
+# Test Rails App for the poet\_frost\_API gem
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To use, register an API key at https://frost.po.et/
+Set it as the environment variable FROST\_TOKEN.
 
-Things you may want to cover:
+Run rails server and browse to localhost:3000/posts.
 
-* Ruby version
+Create some posts and they'll be uploaded to po.et.
+Clicking 'show' will display the post itself as well as querying po.et
+with #get\_work and and displaying what's returned.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I'll update this later to have a user model so the typical model of having
+per-user API keys can be tested out.
