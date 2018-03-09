@@ -23,7 +23,7 @@
 <% if @post.workid %>
   <p>
   <strong>Retrieved work info (by calling @post.get_work):</strong>
-  <%= (@post.get_work) %>
+  <%= JSON.parse(@post.get_work) %>
   </p>
 <% end %>
 
